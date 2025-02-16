@@ -320,3 +320,56 @@ footer {
   object-fit: cover;
   background: none;
 }
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 700px) {
+  .nav-container ul {
+    display: block;
+  }
+
+  .nav-container ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .box,
+  .company,
+  .project-1,
+  .project-2,
+  .project-3,
+  .certification-1,
+  .certification-2 {
+    width: 100%;
+    float: none;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .experience {
+    display: block;
+  }
+
+  .company {
+    width: 100%;
+  }
+
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .projects,
+  .certifications {
+    height: auto;
+    display: none;
+  }
+
+  .contact-icons ul {
+    display: block;
+  }
+
+  .contact-icons li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
