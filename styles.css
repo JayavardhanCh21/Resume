@@ -1,0 +1,313 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #161516;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.nav-container ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-container ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer css : */
+
+.footer-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.contact-icons {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-icons ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-icons ul li {
+  display: inline-block;
+  text-align: justify;
+  margin: 0 15px;
+}
+
+/* Main - body css: */
+
+.container-1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  margin: 10px 0;
+}
+
+.container-1 h3 {
+  text-align: center;
+}
+
+.container-1 h2 {
+  margin-top: 15px;
+}
+
+.container-2 {
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  min-height: 250px; /* Ensures both boxes have the same height */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: left;
+  background-color: rgb(210, 230, 230);
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.box p,
+.box ul {
+  line-height: 1.6;
+}
+/* experience section */
+.container-3 {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: left;
+  background-color: rgb(233, 238, 198);
+}
+
+.experience {
+  display: inline-block;
+  width: 100%;
+}
+
+.company {
+  width: 44%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  display: inline-block;
+
+  text-align: left;
+}
+
+.company-1 {
+  float: left;
+}
+
+.company-2 {
+  float: right;
+}
+
+.company-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.company h2 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* projects and certifications */
+
+/* ------------- */
+
+.container-4 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.projects {
+  display: inline-block;
+}
+
+.project-1 .project-2 .project-3 {
+  display: inline-block;
+}
+
+.box.projects {
+  margin: auto;
+  text-align: center;
+}
+.projects {
+  height: 53vh;
+}
+
+.projects h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Individual Project Sections */
+.project-1,
+.project-2,
+.project-3 {
+  width: 25%;
+  float: left;
+  margin: 1.5%;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  height: 39vh;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.certifications {
+  height: 53vh;
+}
+
+.certifications h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.certification-1,
+.certification-2 {
+  width: 40%;
+  float: left;
+  margin: 1%;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  height: 32vh;
+}
+.certifications-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.box.certifications::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer css :  */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
+.footer-logo {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-icons ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-icons li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.contact-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  background: none;
+}
